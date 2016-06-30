@@ -78,5 +78,5 @@ object Ostrich extends Build {
   lazy val ostrich = Project(
     id = "ostrich",
     base = file(".")
-  ).settings(sharedSettings)
+  ).settings(sharedSettings:_*)
 }
